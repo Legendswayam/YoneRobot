@@ -82,19 +82,14 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
+PHOTO = ""
 
-PM_START_TEXT = """ Hello *{}*, My name is *{}*! 
-A telegram group management bot. I'm here to help you to manage your groups.
-I have lots of handy features such as:
-‣ Warning system
-‣ Artificial intelligence
-‣ Flood control system
-‣ Note keeping system
-‣ Filters keeping system
-‣ Approvals and much more.
-
-So what are you waiting for?
-*Add me in your groups and give me full rights to make me function well.*
+PM_START_TEXT = """
+**ɪ ᴀᴍ ᴅᴇꜱᴛʀᴜᴄᴛᴏʀ⚡🤖** [☘️](https://telegra.ph/file/3a1dce72b7f684d1b6bee.jpg)
+️➖➖➖➖➖➖➖➖➖➖➖➖➖
+**sᴜᴘᴇʀғᴀsᴛ ⚡. ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs!!**
+️➖➖➖➖➖➖➖➖➖➖➖➖➖
+☉ **ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ.**
 """
 
 
@@ -240,8 +235,8 @@ def yone_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                    [
-                     InlineKeyboardButton(text="Support", url="t.me/Yone_Support"),
-                     InlineKeyboardButton(text="News", url="t.me/Yone_Updates"),
+                     InlineKeyboardButton(text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓 👻", url="https://t.me/ALIEN_X_SUPPORT"),
+                     InlineKeyboardButton(text="𝐔𝐏𝐃𝐀𝐓𝐄 👻", url="https://t.me/ALIEN_X_UPDATE"),
                    ],
                    [
                     InlineKeyboardButton(text="Back", callback_data="yone_back")
